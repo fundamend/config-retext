@@ -1,6 +1,6 @@
 # config-retext
 
-_config-retext_ is a configuration preset for [retext] and its [plugins] used by [rehype-preset-retext], [config-remark-retext], and the [fundamend.dev] ecosystem.
+_config-retext_ is a configuration preset for [retext] and its [plugins] used by [config-rehype-retext], [config-remark-retext], and the [fundamend.dev] ecosystem.
 
 ## Installation
 
@@ -37,7 +37,7 @@ module.exports = {
 [mit]: https://choosealicense.com/licenses/mit/
 [npm]: https://www.npmjs.com/
 [plugins]: https://github.com/retextjs/retext/blob/master/doc/plugins.md
-[rehype-config-fundamend]: https://github.com/fundamend/rehype-config-fundamend
+[config-rehype]: https://github.com/fundamend/config-rehype
 [rehype-retext]: https://github.com/rehypejs/rehype-retext
 [remark-retext]: https://github.com/remarkjs/remark-retext
 [.rehyperc.js]: https://github.com/unifiedjs/unified-engine/blob/master/doc/configure.md
