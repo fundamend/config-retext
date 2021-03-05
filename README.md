@@ -37,7 +37,8 @@ module.exports = {
 [mit]: https://choosealicense.com/licenses/mit/
 [npm]: https://www.npmjs.com/
 [plugins]: https://github.com/retextjs/retext/blob/master/doc/plugins.md
-[config-rehype]: https://github.com/fundamend/config-rehype
+[config-rehype-retext]: https://github.com/fundamend/config-rehype-retext
+[config-remark-retext]: https://github.com/fundamend/config-remark-retext
 [rehype-retext]: https://github.com/rehypejs/rehype-retext
 [remark-retext]: https://github.com/remarkjs/remark-retext
 [.rehyperc.js]: https://github.com/unifiedjs/unified-engine/blob/master/doc/configure.md
