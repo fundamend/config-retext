@@ -39,6 +39,7 @@ Broido
 Buschmann
 CPE
 CPEs
+CSS3
 CSV
 Chao
 Cheng
@@ -92,6 +93,7 @@ Gregor
 Greylist
 Guang
 Guobin
+HTML5
 HVAC
 Harald
 Hashizume
@@ -368,6 +370,7 @@ ruggedize
 scalable
 schedulable
 shortcodes
+snowpack
 splitsh
 stylelint
 stylesheet
