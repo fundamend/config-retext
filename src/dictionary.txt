@@ -230,6 +230,7 @@ Starsinic
 Stringify
 StructuredActivityNode
 StructuredActivityNodes
+SvelteKit
 THNGHUB
 Tadayoshi
 Tecnic
@@ -238,6 +239,7 @@ ThermoPeanut
 ThingWorx
 TimeEvent
 TimeEvents
+TypeError
 UDP
 UI
 UICC
@@ -291,6 +293,7 @@ backend
 backends
 balancer
 biomechanical
+changelog
 checkmark
 cli
 comparator
@@ -370,6 +373,7 @@ routable
 ruggedize
 scalable
 schedulable
+semver
 shortcodes
 snowpack
 splitsh
@@ -380,6 +384,7 @@ summarization
 swimlane
 swimlanes
 telecommand
+template-sveltekit
 themeSwitcher
 thermoelectric
 todo
