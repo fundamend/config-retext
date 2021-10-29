@@ -251,6 +251,7 @@ URIs
 Uwe
 VLC
 VirtualBox
+Vite
 Vlissides
 WISPCam
 WSL2
@@ -295,10 +296,12 @@ balancer
 biomechanical
 changelog
 checkmark
+citekey
 cli
 comparator
 comparators
 config
+config-vite
 confirmable
 contactless
 cron
@@ -323,15 +326,18 @@ faas-cli
 faasd
 failover
 fulltext
+fulltext
 fundamend
 heterogenous
 iCloud
 internetofthingspatterns
 intransparent
 latencies
+lerna
 libeliumOpen
 lifecycle
 linklist
+linter
 mDNS
 microcontroller
 microcontrollers
@@ -377,6 +383,7 @@ semver
 shortcodes
 snowpack
 splitsh
+src
 stylelint
 stylesheet
 subtree
