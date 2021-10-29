@@ -3,6 +3,7 @@ const path = require('path');
 
 const dictionary = require('dictionary-en');
 const english = require('retext-english');
+const equality = require('retext-equality');
 const spell = require('retext-spell');
 const syntaxUrls = require('retext-syntax-urls');
 const unified = require('unified');
@@ -20,5 +21,6 @@ const spellOptions = {
 
 module.exports = unified()
 	.use(english)
+	.use(equality)
 	.use(syntaxUrls)
 	.use(spell, spellOptions);
