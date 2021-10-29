@@ -15,7 +15,7 @@ const personal = fs.readFileSync(
 const spellOptions = {
 	dictionary: dictionary,
 	personal: personal,
-	ignore: [],
+	ignore: []
 };
 
 module.exports = unified()
