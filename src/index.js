@@ -1,17 +1,19 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
-const dictionary = require('dictionary-en');
-const english = require('retext-english');
-const equality = require('retext-equality');
-const spell = require('retext-spell');
-const syntaxUrls = require('retext-syntax-urls');
-const unified = require('unified');
+import dictionary from 'dictionary-en';
+import english from 'retext-english';
+import equality from 'retext-equality';
+import spell from 'retext-spell';
+import syntaxUrls from 'retext-syntax-urls';
+import unified from 'unified';
+import { fileURLToPath } from 'node:url';
 
-const personal = fs.readFileSync(
-	path.resolve(__dirname, 'dictionary.txt'),
-	'utf8'
+const dictionaryPath = fileURLToPath(
+	new URL('dictionary.txt', import.meta.url)
 );
+
+const personal = fs.readFileSync(path.resolve(dictionaryPath), 'utf8');
 
 const spellOptions = {
 	dictionary: dictionary,
@@ -19,7 +21,7 @@ const spellOptions = {
 	ignore: []
 };
 
-module.exports = unified()
+export default unified()
 	.use(english)
 	.use(equality)
 	.use(syntaxUrls)

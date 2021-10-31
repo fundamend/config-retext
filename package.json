@@ -2,9 +2,10 @@
 	"name": "@fundamend/config-retext",
 	"version": "0.1.0",
 	"dependencies": {
+		"@babel/eslint-parser": "^7.15.8",
 		"dictionary-en": "^3.0.0",
 		"retext-english": "^3.0.4",
-		"retext-equality": "5.7.0",
+		"retext-equality": "6.4.0",
 		"retext-spell": "^4.0.0",
 		"retext-syntax-urls": "^2.0.0",
 		"unified": "^9.0.0"
@@ -20,7 +21,7 @@
 		"eslint": "^7.2.0",
 		"lint-staged": "^11.0.0",
 		"prettier": "^2.0.5",
-		"remark-cli": "^9.0.0",
+		"remark-cli": "^10.0.0",
 		"rimraf": "^3.0.2"
 	},
 	"license": "MIT",
@@ -36,11 +37,12 @@
 		"lint:fix": "yarn lint:js:fix && yarn lint:md:fix && yarn lint:formatting:fix",
 		"lint:formatting": "prettier **/*.* --check",
 		"lint:formatting:fix": "prettier **/*.* --write",
-		"lint:js": "eslint **/*.js",
-		"lint:js:fix": "eslint **/*.js --fix",
+		"lint:js": "eslint . --ext .js,.cjs",
+		"lint:js:fix": "eslint . --ext .js,.cjs --fix",
 		"lint:md": "remark . --ignore-path .gitignore",
 		"lint:md:fix": "remark . --ignore-path .gitignore --output",
 		"precommit": "lint-staged",
 		"release:prepare": "cross-env-shell \"standard-version -t $npm_package_name@\""
-	}
+	},
+	"type": "module"
 }
