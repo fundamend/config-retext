@@ -4,10 +4,27 @@
 	"dependencies": {
 		"@babel/eslint-parser": "^7.15.8",
 		"dictionary-en": "^3.0.0",
+		"retext-assuming": "^1.0.0",
+		"retext-cliches": "^1.0.0",
+		"retext-contractions": "^5.1.0",
+		"retext-diacritics": "^4.1.0",
 		"retext-english": "^3.0.4",
 		"retext-equality": "6.4.0",
+		"retext-indefinite-article": "^3.1.0",
+		"retext-intensify": "^6.1.0",
+		"retext-overuse": "^1.1.1",
+		"retext-passive": "^4.1.0",
+		"retext-profanities": "^7.1.0",
+		"retext-quotes": "^5.1.0",
+		"retext-readability": "^7.1.0",
+		"retext-redundant-acronyms": "^4.2.0",
+		"retext-repeated-words": "^4.1.0",
+		"retext-sentence-spacing": "^5.1.0",
+		"retext-simplify": "^7.1.0",
 		"retext-spell": "^4.0.0",
+		"retext-syntax-mentions": "^3.1.0",
 		"retext-syntax-urls": "^2.0.0",
+		"retext-usage": "^0.5.0",
 		"unified": "^9.0.0"
 	},
 	"devDependencies": {
@@ -39,10 +56,11 @@
 		"lint:formatting:fix": "prettier **/*.* --write",
 		"lint:js": "eslint . --ext .js,.cjs",
 		"lint:js:fix": "eslint . --ext .js,.cjs --fix",
-		"lint:md": "remark . --ignore-path .gitignore",
-		"lint:md:fix": "remark . --ignore-path .gitignore --output",
+		"lint:md": "remark . --ignore-path .remarkignore",
+		"lint:md:fix": "remark . --ignore-path .remarkignore --output",
 		"precommit": "lint-staged",
-		"release:prepare": "cross-env-shell \"standard-version -t $npm_package_name@\""
+		"release:prepare": "cross-env-shell \"standard-version -t $npm_package_name@\"",
+		"test": "remark tests/**/*.md --ignore-path tests/.remarkignore"
 	},
 	"type": "module"
 }

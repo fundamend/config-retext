@@ -1,20 +1,20 @@
 # config-retext
 
-_config-retext_ is a configuration preset for [retext] and its [plugins] used by [config-rehype-retext], [config-remark-retext], and the [fundamend.dev] ecosystem.
+_config-retext_ is a configuration preset for [retext] and its [plugins], used by [config-rehype-retext], [config-remark-retext], and the [fundamend.dev] ecosystem.
 
 ## Installation
 
-Use your favorite Node.js package manager, for example [npm], like so:
+Use your favorite Node.js package manager, for example [npm]:
 
     npm install --save-dev @fundamend/config-retext
 
-... or [yarn], like so:
+... or [yarn]:
 
     yarn add --dev @fundamend/config-retext
 
 ## Usage
 
-In your [.rehyperc.js] or [.remarkrc.js], import [remark-retext] or [rehype-retext] and _config-retext_ and add it to the plugins array, like so:
+In your [.rehyperc.js] or [.remarkrc.js], import [remark-retext] or [rehype-retext] and _config-retext_ and add it to the plugins array:
 
 ```js
 const retext = require('rehype-retext');
