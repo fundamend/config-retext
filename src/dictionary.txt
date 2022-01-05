@@ -301,6 +301,7 @@ cli
 comparator
 comparators
 config
+config-svgo
 config-vite
 confirmable
 contactless
@@ -388,6 +389,7 @@ stylelint
 stylesheet
 subtree
 summarization
+svgo
 swimlane
 swimlanes
 telecommand
